@@ -1,0 +1,2 @@
+
+CREATE TABLE product(id varchar(25) NOT NULL, name varchar(255) DEFAULT NULL,description text,language varchar(19) DEFAULT NULL,writer varchar(255) DEFAULT NULL,date_of_publish timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,company_name varchar(100) DEFAULT NULL,PRIMARY KEY (id));
